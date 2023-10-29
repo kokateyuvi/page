@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0%;
+           padding: 0%;
+        } 
+        .img {
+            width: 100%;
+            height: 100vh;
+            background-image:url("https://img.freepik.com/free-photo/shopping-cart-black-background-with-copy-space_23-2148317906.jpg?w=900&t=st=1696488155~exp=1696488755~hmac=93c5b43e022bb921d13f84f4aad358b6643dce2d5f1dda9ec90beade364b1566");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-origin: border-box;
+            font-family: sans-serif;
+
+        }
+      nav{
+          width: 100%;
+          height: 100px;
+          
+          color:rgb(243, 237, 237);
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          
+        }
+        .logo{
+          font-size:25px;
+          letter-spacing: 2px;
+        }
+        .menu a{
+          text-decoration: none;
+          color:white;
+          padding: 10px 20px;
+          font-size: 20px;
+          position: relative;
+        }
+        .menu a:before{
+         content: '';
+         position: absolute;
+         top:0%;
+         left: 0%;
+         width: 0%;
+         height: 100%;
+         border-bottom: 2px solid indianred;
+         transition: 0.4s linear;
+
+
+        }
+        .menu a:hover:before{
+          width: 90%;
+        }
+        .Register a{
+          text-decoration: none;
+          color:white;
+          padding: 10px 20px;
+          font-size: 20px;
+          background-color: indianred;
+          border-radius:10px ;
+        }
+        .i-text{
+          max-width: 700px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          color: white;
+          text-align: center;
+
+        }
+        .i-text h1{
+          font-size:3.5em ;
+        }
+        .i-text a{
+          text-decoration: none;
+          background: indianred;
+          color: white;
+          letter-spacing: 5px;
+          border-radius: 4px;
+          padding: 10px 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+  <div class="img">
+           <nav>
+        
+        
+            <div class="logo">Online Shop</div>
+               
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Offers</a>
+            <a href="#">Price</a>
+            <a href="#">Contact</a>
+            <a href="#">About us</a>
+          </div>
+            <div class="Register">
+            <a href="#">Ragister</a>
+           </div>
+
+          
+
+
+
+
+
+          
+
+           </nav>
+            <section class="i-text">
+
+              <h1>BIGGEST DEALS ON TOP BRANDS</h1>
+                 <br>
+                 <a href="#">ORDER NOW</a>
+                
+
+            </section>
+  </div>
+    
+</body>
+</html>
